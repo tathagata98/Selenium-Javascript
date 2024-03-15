@@ -1,0 +1,15 @@
+{
+  "name": "selenium-javascript",
+  "version": "1.0.0",
+  "main": "seleniumfirstrun.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "selenium-webdriver": "^4.18.1"
+  },
+  "devDependencies": {},
+  "description": ""
+}
