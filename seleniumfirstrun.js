@@ -2,7 +2,7 @@ const { Builder, By, until } = require("selenium-webdriver");
 const assert = require("assert");
 async function loginTest() {
   // launch the browser
-  let driver = await new Builder().forBrowser("chrome").build();
+  let driver = await new Builder().forBrowser("edge").build();
   try {
     //navigate to facebook login page
     await driver.get("https://www.javatpoint.com/");
