@@ -5,7 +5,7 @@ async function loginTest() {
   let driver = await new Builder().forBrowser("chrome").build();
   try {
     //navigate to facebook login page
-    await driver.get("https://test-login-app.vercel.app/");
+    await driver.get("");
     // Select input elements and fill them out
     await driver.findElement(By.id("email")).sendKeys("test3@gmail.com");
     await driver.findElement(By.id("password")).sendKeys("Password@12345");
