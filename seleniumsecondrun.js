@@ -2,7 +2,8 @@
 // program to generate fibonacci series up to n terms
 
 // take input from the user
-const number = parseInt(prompt('Enter the number of terms: '));
+const number = 10;
+//parseInt(prompt('Enter the number of terms: '));
 let n1 = 0, n2 = 1, nextTerm;
 
 console.log('Fibonacci Series:');
